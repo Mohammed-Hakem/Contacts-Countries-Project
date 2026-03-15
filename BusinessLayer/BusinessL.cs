@@ -257,7 +257,10 @@ namespace ContactsBusinessLayer
 
         }
 
-
+        public static DataTable GetAllCountries()
+        {
+            return clsContactDataAccess.GetAllCountries();
+        }
     }
 
 }
